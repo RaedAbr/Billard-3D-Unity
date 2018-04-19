@@ -12,8 +12,6 @@ public class CameraController : MonoBehaviour {
 
     private float currentX = 0.0f;
     private float currentY = 20.0f;
-    //private float sensitivityX = 4.0f;
-    //private float sensitivityY = 1.0f;
 
     public bool canMove { get; set; }
 

@@ -14,7 +14,6 @@ public class GameController : MonoBehaviour {
 
     private bool isTurnFinish { get; set; }
     private Player currentPlayer;
-    private Player otherPlayer;
     private Player player1;
     private Player player2;
     private bool switchPlayer;
@@ -48,12 +47,10 @@ public class GameController : MonoBehaviour {
             if (currentPlayer.Name == PlayerName.Player1)
             {
                 SetCurrentPlayer(player2);
-                otherPlayer = player1;
             }
             else
             {
                 SetCurrentPlayer(player1);
-                otherPlayer = player2;
             }
         }
     }

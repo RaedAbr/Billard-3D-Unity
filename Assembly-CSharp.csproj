@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3DFE3C2A-6D16-1EE2-4C1E-ADC5046A674D}</ProjectGuid>
+    <ProjectGuid>{5A455F42-BD40-63FF-6CA1-3F6CD907B846}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,13 +53,9 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\BallProperties.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
-     <Compile Include="Assets\Scripts\CaneController22.cs" />
-     <Compile Include="Assets\Scripts\CueController.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\HoleController.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
-     <Compile Include="Assets\Scripts\PlayerController.cs" />
-     <Compile Include="Assets\Scripts\Rotater.cs" />
      <Compile Include="Assets\Scripts\StartGame.cs" />
      <Compile Include="Assets\Scripts\WhiteBallController.cs" />
  <Reference Include="UnityEngine.UI">
